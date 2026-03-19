@@ -16,10 +16,10 @@ DB_CONFIG = {
     "host":     "localhost",
     "port":     3306,
     "user":     "root",        # ← your MySQL username
-    "password": "root@2026",  # ← your MySQL password
+    "password": "root@1234",  # ← your MySQL password
 }
 DB_NAME       = "ecommerce_analysis"
-CLEANED_CSV   = "C:/Users/Yash/Ecommerce_analysis/data/cleaned_products.csv"
+CLEANED_CSV   = "/cleaned_products.csv"
 
 
 # ── SQL STATEMENTS ────────────────────────────────────────────────────────────
