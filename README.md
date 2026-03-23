@@ -64,6 +64,8 @@ These datasets are cleaned, transformed, and integrated to build a unified analy
 
 ### 📍 Executive Overview
 
+<img width="1159" height="640" alt="image" src="https://github.com/user-attachments/assets/dd2d1e7e-4654-4a19-b26d-09e911b2c907" />
+
 * Total Sales: **46M**
 * Total Customers: **4K**
 * Total Profit: **4.65M**
@@ -77,6 +79,8 @@ These datasets are cleaned, transformed, and integrated to build a unified analy
 
 ### 🌍 Regional Analysis
 
+<img width="1156" height="647" alt="image" src="https://github.com/user-attachments/assets/6387455a-3d4d-4ed5-91e7-905f1380930b" />
+
 * Top Region by Sales: **West**
 * Highest Profit Region: **West**
 * Total Cities: **12**
@@ -87,6 +91,8 @@ These datasets are cleaned, transformed, and integrated to build a unified analy
 ---
 
 ### 📦 Product Performance
+
+<img width="1161" height="647" alt="image" src="https://github.com/user-attachments/assets/9a391fef-ca5a-4298-ad52-7a332a16581e" />
 
 * Top Selling Category: **Clothing**
 * Total Products Sold: **45K**
@@ -99,6 +105,8 @@ These datasets are cleaned, transformed, and integrated to build a unified analy
 ---
 
 ### 👥 Customer Behaviour
+
+<img width="1155" height="644" alt="image" src="https://github.com/user-attachments/assets/5d53a4c3-a910-4726-87a8-ed536fa4bd70" />
 
 * Total Customers: **4K**
 * Average Customer Spending: **11.90K**
