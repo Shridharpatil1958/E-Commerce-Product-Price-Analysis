@@ -6,9 +6,9 @@
 
 ### Transforming Raw Retail Data into Actionable Business Insights using Python, MySQL & Power BI
 
-![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-Data%20Cleaning-blue?style=for-the-badge&logo=python)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge&logo=powerbi)
+![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge&logo=powerbi)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 </div>
@@ -17,33 +17,33 @@
 
 ## 🎯 Project Overview
 
-The **Retail Data Analysis Dashboard** is an end-to-end Business Intelligence project designed to analyze retail operations and generate actionable insights from sales, customers, products, and regional performance data.
+The **Retail Data Analysis Dashboard** is an end-to-end Business Intelligence project designed to analyze sales performance, customer behavior, product profitability, and regional trends.
 
 This project demonstrates a complete analytics pipeline:
 
-✅ Data Cleaning & Transformation using Python
+✅ Data Cleaning using Python
 
-✅ Relational Database Design using MySQL
+✅ Data Storage & Querying using MySQL
 
-✅ Data Analysis using SQL
+✅ Dashboard Development using Power BI
 
-✅ Interactive Dashboard Development using Power BI
+✅ KPI Monitoring & Business Insights
 
-✅ Business Insight Generation
+✅ Customer, Product & Regional Analysis
 
 ---
 
 ## 🚀 Business Problem
 
-Retail companies generate large volumes of transactional data every day. Without proper analysis, identifying trends, profitable products, customer behavior, and regional performance becomes difficult.
+Retail organizations generate large volumes of transactional data every day. Without proper analysis, identifying growth opportunities and improving operational efficiency becomes difficult.
 
 This project helps answer critical business questions:
 
 - Which products generate the highest revenue?
 - Which regions contribute the most profit?
 - Who are the most valuable customers?
-- What sales channels perform best?
-- How can inventory and sales strategies be improved?
+- How do online and offline channels compare?
+- What opportunities exist for business growth?
 
 ---
 
@@ -51,38 +51,36 @@ This project helps answer critical business questions:
 
 | Tool | Purpose |
 |--------|---------|
-| Python | Data Cleaning & Preprocessing |
-| Pandas | Data Manipulation |
-| NumPy | Numerical Analysis |
+| Python | Data Cleaning & Transformation |
+| Pandas | Data Analysis |
+| NumPy | Numerical Computing |
 | MySQL | Data Storage & Querying |
-| SQL | Business Analysis |
-| Power BI | Dashboard Development |
+| SQL | Business Queries |
+| Power BI | Dashboard & Reporting |
 | Git & GitHub | Version Control |
 
 ---
 
-# 📂 Dataset Description
+## 📂 Dataset Description
 
-The project uses multiple datasets:
+The project integrates multiple business datasets:
 
 | Dataset | Description |
 |----------|------------|
-| Orders | Customer Orders |
-| Sales | Revenue & Profit Data |
-| Products | Product Information |
-| Customers | Customer Details |
-| Suppliers | Supplier Information |
-| Inventory | Stock Management |
-
-The datasets were cleaned, transformed, and integrated into a unified analytical model.
+| Orders | Customer orders |
+| Sales | Revenue and profit information |
+| Products | Product catalog |
+| Customers | Customer information |
+| Suppliers | Supplier details |
+| Inventory | Inventory management |
 
 ---
 
-# 🔄 Project Workflow
+## 🔄 Project Workflow
 
 ```mermaid
 graph LR
-A[Raw Data] --> B[Python Data Cleaning]
+A[Raw Data] --> B[Python Cleaning]
 B --> C[Feature Engineering]
 C --> D[MySQL Database]
 D --> E[SQL Analysis]
@@ -92,142 +90,94 @@ F --> G[Business Insights]
 
 ---
 
-# 🧹 Data Cleaning & Transformation
+# 📊 Executive Overview Dashboard
 
-### Tasks Performed
-
-- Handled Missing Values
-- Removed Duplicate Records
-- Standardized Column Names
-- Converted Data Types
-- Date Formatting
-- Feature Engineering
-- Data Validation
-
-### Features Created
-
-- Profit
-- Profit Margin
-- Monthly Revenue
-- Customer Revenue
-- Sales KPIs
-- Product KPIs
-
----
-
-# 🗄️ Database Design (MySQL)
-
-### Database Activities
-
-- Created Relational Database Schema
-- Defined Primary Keys
-- Defined Foreign Keys
-- Established Table Relationships
-- Optimized Analytical Queries
-
-### Tables Used
-
-```sql
-Customers
-Orders
-Sales
-Products
-Suppliers
-Inventory
-```
-
----
-
-# 📊 Power BI Dashboards
-
-## 📍 Executive Overview
-
-![Executive Dashboard](images/executive_overview.png)
+![Executive Overview](https://github.com/user-attachments/assets/dd2d1e7e-4654-4a19-b26d-09e911b2c907)
 
 ### Key KPIs
 
 | KPI | Value |
 |------|------|
 | Total Sales | 46M |
-| Total Customers | 4K |
 | Total Profit | 4.65M |
+| Total Customers | 4K |
 | Total Orders | 15K |
 | Profit Margin | 10.03% |
 
 ### Dashboard Features
 
-- Monthly Sales Trends
-- Profit Analysis
-- Category Performance
-- Sales Channel Analysis
-- KPI Monitoring
+- Monthly Sales Trend
+- Category-wise Sales Analysis
+- Profit Tracking
+- Sales Channel Performance
+- Executive KPI Monitoring
 
 ---
 
-## 🌍 Regional Analysis
+# 🌍 Regional Analysis Dashboard
 
-![Regional Dashboard](images/regional_analysis.png)
+![Regional Analysis](https://github.com/user-attachments/assets/6387455a-3d4d-4ed5-91e7-905f1380930b)
 
-### Highlights
+### Key Insights
 
-🏆 Top Sales Region → West
+🏆 Top Sales Region → **West**
 
-🏆 Highest Profit Region → West
+🏆 Highest Profit Region → **West**
 
-🏙️ Total Cities → 12
+🏙️ Total Cities Covered → **12**
 
-### Analysis Included
+### Dashboard Features
 
 - Regional Sales Distribution
-- Profit Comparison
-- City-wise Performance
-- Geographic Analysis
+- Profit by Region
+- City-wise Sales Analysis
+- Geographic Performance Metrics
 
 ---
 
-## 📦 Product Performance
+# 📦 Product Performance Dashboard
 
-![Product Dashboard](images/product_analysis.png)
+![Product Performance](https://github.com/user-attachments/assets/9a391fef-ca5a-4298-ad52-7a332a16581e)
 
-### Highlights
+### Key Insights
 
-📈 Top Selling Category → Clothing
+📈 Top Selling Category → **Clothing**
 
-💻 Best Selling Subcategory → Laptop
+💻 Best Selling Subcategory → **Laptop**
 
-📦 Products Sold → 45K
+📦 Total Products Sold → **45K**
 
-💰 Average Product Profit → 311.70
+💰 Average Product Profit → **311.70**
 
-### Analysis Included
+### Dashboard Features
 
-- Product Rankings
-- Category Performance
-- Profitability Analysis
-- Quantity vs Profit
+- Top Products by Revenue
+- Category Performance Analysis
+- Product Profitability
+- Quantity vs Profit Analysis
 
 ---
 
-## 👥 Customer Behaviour Analysis
+# 👥 Customer Behaviour Dashboard
 
-![Customer Dashboard](images/customer_analysis.png)
+![Customer Behaviour](https://github.com/user-attachments/assets/5d53a4c3-a910-4726-87a8-ed536fa4bd70)
 
-### Highlights
+### Key Insights
 
-👤 Total Customers → 4K
+👤 Total Customers → **4K**
 
-💰 Average Customer Spending → 11.90K
+💰 Average Spending → **11.90K**
 
-🌐 Online Sales → 49.98%
+🌐 Online Sales → **49.98%**
 
-🏆 Top Customer Revenue → 49K
+🏆 Highest Customer Revenue → **49K**
 
-### Analysis Included
+### Dashboard Features
 
 - Customer Segmentation
-- Spending Patterns
-- Payment Methods
-- Customer Revenue Analysis
+- Spending Behavior
+- Payment Method Analysis
+- Online vs Offline Trends
 
 ---
 
@@ -237,25 +187,74 @@ Inventory
 
 📌 West region contributes the highest sales and profit.
 
-📌 Monthly sales demonstrate steady growth patterns.
+📌 Monthly sales show a stable growth trend.
 
 ### Product Insights
 
-📌 Clothing category dominates sales volume.
+📌 Clothing dominates total sales volume.
 
-📌 Laptop subcategory generates strong revenue.
+📌 Laptop category generates significant revenue.
 
 ### Customer Insights
 
-📌 A small group of high-value customers contributes a significant share of total revenue.
+📌 High-value customers contribute a major share of overall revenue.
 
-📌 Online and Offline channels perform almost equally.
+📌 Online and Offline sales channels perform almost equally.
 
 ### Regional Insights
 
-📌 Delhi, Bangalore, and Chennai are major revenue-generating cities.
+📌 Delhi, Bangalore, and Chennai are among the top-performing cities.
 
-📌 Regional analysis reveals expansion opportunities in underperforming markets.
+📌 Regional analysis reveals expansion opportunities.
+
+---
+
+# 🧹 Data Cleaning & Transformation
+
+### Performed Using Python
+
+✔ Missing Value Handling
+
+✔ Duplicate Removal
+
+✔ Data Type Conversion
+
+✔ Date Formatting
+
+✔ Data Validation
+
+✔ Feature Engineering
+
+### Engineered Features
+
+- Profit
+- Profit Margin
+- Monthly Sales
+- Customer Revenue
+- Product KPIs
+
+---
+
+# 🗄️ Database Design
+
+### MySQL Implementation
+
+- Relational Database Schema
+- Primary & Foreign Keys
+- Data Integrity Checks
+- SQL Query Optimization
+- Business Analytics Queries
+
+### Database Tables
+
+```sql
+Customers
+Products
+Orders
+Sales
+Suppliers
+Inventory
+```
 
 ---
 
@@ -268,60 +267,54 @@ Retail-Data-Analysis/
 │
 ├── python/
 │   ├── data_cleaning.py
-│   ├── feature_engineering.py
-│   └── eda_analysis.py
+│   ├── eda_analysis.py
+│   └── feature_engineering.py
 │
 ├── sql/
 │   ├── database_schema.sql
-│   ├── retail_queries.sql
-│   └── analytical_views.sql
+│   └── business_queries.sql
 │
 ├── powerbi/
 │   └── Retail_Dashboard.pbix
 │
-├── images/
-│   ├── executive_overview.png
-│   ├── regional_analysis.png
-│   ├── product_analysis.png
-│   └── customer_analysis.png
+├── dashboard_screenshots/
 │
-├── requirements.txt
 ├── README.md
-└── LICENSE
+└── requirements.txt
 ```
 
 ---
 
 # 🚀 How to Run
 
-## Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/Retail-Data-Analysis.git
 ```
 
-## Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run Data Cleaning
+### Run Python Scripts
 
 ```bash
-python python/data_cleaning.py
+python data_cleaning.py
 ```
 
-## Import Data into MySQL
+### Load Data into MySQL
 
-1. Create Database
-2. Execute Schema Script
-3. Import Cleaned Data
+- Create Database
+- Execute Schema Script
+- Import Cleaned Data
 
-## Open Power BI Dashboard
+### Open Power BI Dashboard
 
 ```text
-powerbi/Retail_Dashboard.pbix
+Retail_Dashboard.pbix
 ```
 
 ---
@@ -331,36 +324,35 @@ powerbi/Retail_Dashboard.pbix
 ### Data Analysis
 
 - Data Cleaning
-- Data Transformation
 - Exploratory Data Analysis
-- Feature Engineering
+- Business Analytics
 
 ### SQL
 
 - Joins
-- Aggregate Functions
+- Aggregations
 - Window Functions
 - Database Design
 
 ### Power BI
 
 - KPI Cards
-- Interactive Dashboards
 - DAX Measures
+- Interactive Dashboards
 - Business Reporting
 
-### Business Analytics
+### Business Intelligence
 
-- Sales Analysis
 - Customer Analytics
 - Product Analytics
-- Regional Performance Analysis
+- Regional Analysis
+- Sales Performance Monitoring
 
 ---
 
 # 🔮 Future Enhancements
 
-- 📈 Sales Forecasting
+- 📈 Sales Forecasting using Machine Learning
 - 🤖 Product Recommendation System
 - ⚡ Real-Time Data Pipeline
 - ☁️ Cloud Database Integration
@@ -386,19 +378,19 @@ powerbi/Retail_Dashboard.pbix
 
 If you found this project useful:
 
-⭐ Star this Repository
+⭐ Star this repository
 
-🍴 Fork this Repository
+🍴 Fork this repository
 
-📢 Share with Others
+📢 Share with others
 
-🤝 Contribute Improvements
+🤝 Contribute improvements
 
 ---
 
 <div align="center">
 
-### 📊 Turning Retail Data into Actionable Business Insights
+### 📊 Turning Retail Data into Business Intelligence
 
 **Made with ❤️ by Shridhar Patil**
 
